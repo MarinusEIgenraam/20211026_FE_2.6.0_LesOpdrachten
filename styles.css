@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    padding: 10px 10px;
+    box-shadow: 10px 5px;
+    border: 1px solid;
+    margin: 20px;
+    width: 200px;
+    text-align: center
+
+}
+
+#verkoop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#verkoop div span.verkoop {
+    font-weight: bold;
+    font-size: 2rem;
+    color: lawngreen;
+}
+
+#inkoop div span.inkoop {
+    font-weight: bold;
+    font-size: 2rem;
+    color: blue;
+}
+
+#teVerkopen div span.teVerkopen {
+    font-weight: bold;
+    font-size: 2rem;
+    color: red;
+}
+
+.list-group {
+    list-style: none;
+}
